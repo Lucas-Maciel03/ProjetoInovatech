@@ -1,0 +1,126 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-size: 1em;
+    font-family: "Times, Times New Roman, serif";
+	background: #e6e6e6;
+}
+
+h1{
+    font-size: 2.5em;
+    color: rgb(80, 80, 80);
+}
+
+h2 {
+    color:  #04B4AE;
+}
+
+h3 {
+    color: #565656;
+    background: #CCC;
+    padding: 6px;
+}
+
+li {
+    margin: 20px;
+}
+/*cabecalho*/
+#cabecalho-principal{
+    padding: 15px;
+    background: #48ccbf;
+    /* background: #FAE124; */
+    text-align: center;
+}
+
+#cabecalho-logo, #cabecalho-menu {
+    padding: 10px;  
+}
+
+/*links*/
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color:  #48ccbf;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#cabecalho-principal a:link, #cabecalho-principal a:visited {
+    color: white;
+    padding: 8px 12px;
+}
+
+#cabecalho-principal a:hover {
+    background: white;
+    color:  #48ccbf;
+    text-decoration: none;
+}
+
+/*area principal*/
+#conteudo-principal {
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.area-postagens {
+    float: left;
+    width: 660px;
+}
+
+.postagens {
+    padding: 20px;
+    background: white;
+    margin-bottom: 20px;
+}
+
+#area-lateral {
+    width: 240px;
+    float: right;
+}
+
+.conteudo-lateral {
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.postagem-lateral {
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px solid #CCC;
+}
+
+/*outras formatacoes*/
+#rodape {
+    background: #CCC;
+    padding: 15px;
+    text-align: center;
+    clear: both;
+}
+.data-postagem{
+    font-size: 0.8em;
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.fonte-imagem {
+    font-size: 0.8em;
+    padding: 5px 0px;
+    margin-bottom: 5px;
+    text-align: center;
+    display: block;
+}
+
+.branco {
+    color: white;
+}
