@@ -124,3 +124,8 @@ a:hover {
 .branco {
     color: white;
 }
+
+/*formatações no chat*/
+df-messenger {
+    --df-messenger-button-titlebar-color: #48ccbf;
+}
