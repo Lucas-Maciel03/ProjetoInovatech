@@ -27,6 +27,7 @@ h3 {
 li {
     margin: 20px;
 }
+
 /*cabecalho*/
 #cabecalho-principal{
     padding: 15px;
@@ -128,4 +129,56 @@ a:hover {
 /*formatações no chat*/
 df-messenger {
     --df-messenger-button-titlebar-color: #48ccbf;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    body {
+        width: 768px;
+    }
+
+    #conteudo-principal {
+        width: 620px;
+    }
+    
+    .area-postagens {
+        width: 600px;
+    }
+
+    img {
+        width: 560px;
+    }
+
+    #area-lateral {
+        width: 600px;
+        margin: 0 auto;
+        float: left;
+    }
+}
+
+@media only screen and (max-width: 400px) {    
+    body {
+        width: 368px;
+    }
+    
+    #conteudo-principal {
+        width: 340px;
+    }
+
+    .area-postagens {
+        width: 320px;
+    }
+
+    img {
+        width: 280px;
+    }
+
+    #area-lateral {
+        display: none;
+        visibility: hidden;
+    }
+
+    h1{
+        font-size: 1.6em;
+        color: rgb(80, 80, 80);
+    }
 }
